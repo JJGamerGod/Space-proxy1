@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "buildCommand": "",
   "builds": [
     {
       "src": "package.json",
@@ -14,10 +15,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "build": {
-    "env": {
-      "ENABLE_EXPERIMENTAL_COREPACK": "1"
-    }
-  }
+  ]
 }
